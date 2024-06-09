@@ -1,9 +1,12 @@
-import './App.css'
+import Dashboard3d from "./pages/Dashboard3d";
 
 function App() {
   return (
-    <>This is Mugen Space</>
-  )
+    <div>
+      This is Mugen Space
+      <Dashboard3d />
+    </div>
+  );
 }
 
-export default App
+export default App;
