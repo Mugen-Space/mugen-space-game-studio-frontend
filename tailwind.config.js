@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./src/**/*.{html,jsx}"],
   theme: {
     extend: {
       colors: {
@@ -9,6 +9,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@xpd/tailwind-3dtransforms")
+  ],
 }
 
